@@ -1,0 +1,26 @@
+{
+  "name": "ead-api",
+  "version": "0.0.1",
+  "description": "API de plataforma de ensino a distancia",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "nodemon src/index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manamachado/ead-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/manamachado/ead-api/issues"
+  },
+  "homepage": "https://github.com/manamachado/ead-api#readme",
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  },
+  "dependencies": {
+    "@hapi/hapi": "^18.4.0"
+  }
+}
